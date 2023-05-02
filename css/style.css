@@ -6,6 +6,9 @@ html {
 /* Set the margin to 0 to make sure the page stretches all the way to the edge of the browser window. */
 body {
   margin: 0;
+  background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 header, footer {
   background: #9796f0;  /* fallback for old browsers */
@@ -115,6 +118,7 @@ h2 {
 .project {
   box-shadow: 0 0px 1px 0 rgb(0 0 0 / 60%);
   width: 100%;
+  background-color: #fff;
 }
 
 .description {
@@ -135,12 +139,12 @@ h2 {
 footer div {
   height: 100%;
   font-family: 'Inter', sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   display: flex;
   align-content: center;
   justify-content: space-between;
   padding: 10px 20px;
-  color: rgb(255, 255, 255, 0.5)
+  color: rgb(255, 255, 255, 0.85)
 }
 
 .copyright {
