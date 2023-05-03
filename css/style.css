@@ -53,7 +53,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #9f86c0;
+  color: #654096;
   padding: 10px 20px 0px 20px;
 }
 
@@ -136,6 +136,18 @@ h2 {
   padding: 0px 20px 20px 20px;
 }
 
+a.nav:visited {
+  color:#8e349e
+}
+
+a.nav:hover {
+  color:#541b5d
+}
+
+a.nav:active {
+  color:#d096f3
+}
+
 .container {
   margin: auto;
 }
@@ -182,22 +194,6 @@ footer div {
   .img1{
     width: 25vh;
     height: 25vh;
-  }
-
-  a:link {
-    color: #be95c4;
-  }
-
-  a:visited {
-    color:#946a9b
-  }
-
-  a:hover {
-    color:#eac5f0
-  }
-
-  a:active {
-    color:#fbc7d4
   }
 
 }
