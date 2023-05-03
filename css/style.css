@@ -97,18 +97,21 @@ h2 {
 }
 
 .myButton {
-  border-radius: 28px;
+  border-radius: 38px;
   border: 1px solid #ffffff;
   cursor: pointer;
   color: #ffffff;
-  font-size: 20px;
-  padding: 16px 31px;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 0 rgb(144, 99, 174), -2px 0 rgb(144, 99, 174), 0 2px rgb(144, 99, 174), 0 -2px rgb(144, 99, 174),
+  1px 1px rgb(144, 99, 174), -1px -1px rgb(144, 99, 174), 1px -1px rgb(144, 99, 174), -1px 1px rgb(144, 99, 174);
+  padding: 24px 39px;
   text-decoration: none;
   margin: 1.69em auto;
 }
 
 .myButton:hover {
-  background-color:#9f86c0;
+  background-color:#9f86c0c6;
 }
 
 .myButton:active {
