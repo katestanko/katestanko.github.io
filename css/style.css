@@ -181,8 +181,20 @@ footer div {
     height: 25vh;
   }
 
-  a {
+  a:link {
     color: #be95c4;
+  }
+
+  a:visited {
+    color:#946a9b
+  }
+
+  a:hover {
+    color:#eac5f0
+  }
+
+  a:active {
+    color:#fbc7d4
   }
 
 }
